@@ -303,6 +303,95 @@ export default function Home({
           </div>
         </div>
       </section>
+      <section
+        id="roadmap"
+        className="Section-Roadmap"
+        style={{
+          backgroundImage: 'url("images/bg-roadmap.jpg")',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover !important',
+          backgroundPosition: 'center',
+        }}>
+        <div
+          className="Section-Border"
+          style={{
+            backgroundImage: `url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAABTklEQVR4AWJwL/ChGAPYnQPNhKIAAMNVShKJiHBfNmADAQGBQCAIBEEQghAu9SbfGDDbtqpzz7k4/wP8PswwC/EKgXkHwFtSEOa+N48OQhMLv7dAMwoILSz93xKtSkFoY+X+VmhXAkIHa4+3RicoCF1sPN8G3SAg9LD1elv0XgKhj51w7dB/CoQB9sK3x+AhEIY4qK4DhneBMMJR9R0x+hOEMU7idcL4RxAmOIvfGZMvIExxka4Lpp8gFCilr0TRwE19ujXUrAzKoAzKoERlUAZdca0LqESBD9bsnABgIACB4OqPiNNwEtPnf8YBJQykxqSKlSp6qeqpqnConLOxEJovbE6FBh4bnKEJzCZ5CAkYWoQYBbHOfaD5FJpewNe8CUQojtFgCCsBnp4HGh849ysvj30gBN4K4EOXALsoUqcJCLWsAzuIStNKVJvmAgBgvSfoAPxfAAAAAABJRU5ErkJggg==')`,
+          }}
+        />
+        <div className="App-Container">
+          <div className="Section-Content">
+            <h2>Roadmap</h2>
+            <div className="Panels">
+              <div className="Panel">
+                <div className="Panel-Dot Panel-Dot-1" />
+                <div className="Panel-Dot Panel-Dot-2" />
+                <div className="Panel-Dot Panel-Dot-3" />
+                <div className="Panel-Dot Panel-Dot-4" />
+                <div className="Panel-Content">
+                  <img
+                    src="images/phase1.png"
+                    alt="logo"
+                  />
+                  <h3>Phase 1</h3>
+                  <ul>
+                    <li>Contract Deployment</li>
+                    <li>Website &amp; Telegram Launch</li>
+                    <li>Social Media Launch</li>
+                    <li>Community Building</li>
+                    <li>Biggest Buy Contests</li>
+                    <li>Trending List &amp; Ad Buys</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="Panel">
+                <div className="Panel-Dot Panel-Dot-1" />
+                <div className="Panel-Dot Panel-Dot-2" />
+                <div className="Panel-Dot Panel-Dot-3" />
+                <div className="Panel-Dot Panel-Dot-4" />
+                <div className="Panel-Content">
+                  <img
+                    src="images/phase1.png"
+                    alt="logo"
+                  />
+                  <h3>Phase 2</h3>
+                  <ul>
+                    <li>CG &amp; CMC Listings</li>
+                    <li>Viral Twitter Contest &amp; Twiter Spaces Event</li>
+                    <li>Twitter Influencer Partnerships</li>
+                    <li>Press Release &amp; Article Blitz</li>
+                    <li>Community Enhancement</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="Panel">
+                <div className="Panel-Dot Panel-Dot-1" />
+                <div className="Panel-Dot Panel-Dot-2" />
+                <div className="Panel-Dot Panel-Dot-3" />
+                <div className="Panel-Dot Panel-Dot-4" />
+                <div className="Panel-Content">
+                  <img
+                    src="images/phase1.png"
+                    alt="logo"
+                  />
+                  <h3>Phase 3</h3>
+                  <ul>
+                    <li>Banner Ads</li>
+                    <li>First CEX Listing</li>
+                    <li>Community Collaboration &amp; Strategy Session</li>
+                    <li>Phase 4 Gameplan Announcement</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="Section-Character">
+            <img
+              src="/static/media/luigi-car.50ba1ac313debbbd7db5.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 }
