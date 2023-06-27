@@ -949,6 +949,7 @@ SECTION - ABOUT
   margin-bottom: 48px;
   text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.6);
   color: #FFFFFF;
+  text-align: center;
 }
 
 @media (max-width: 967px) {
@@ -1126,7 +1127,7 @@ SECTION - TOKENOMICS
 
 .Section-Tokenomics h2 {
   margin-bottom: 36px;
-  color: #484848;
+  color: #fff;
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8);
 }
 
@@ -1143,7 +1144,7 @@ SECTION - TOKENOMICS
   line-height: 1.4;
   display: block;
   margin-bottom: 48px;
-  color: #484848;
+  color: #fff;
   text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.8)
 }
 
@@ -1236,12 +1237,12 @@ SECTION - TOKENOMICS
 }
 
 .Section-Tokenomics .Section-Border {
-  width: calc(100% - 220px);
+  width: 100%
 }
 
 @media (max-width: 967px) {
   .Section-Tokenomics .Section-Border {
-    width: calc(100% - 140px);
+    width: 100%;
   }
 }
 

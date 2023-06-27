@@ -151,7 +151,7 @@ export default function Home({
             <h2>
               A delightfully decentralized, perpetual memecoin for all the
               fun-loving adventurers who are excited to embark on a journey
-              through the cosmos of cheerful mayhem!
+              through the universe of cheerful mayhem!
             </h2>
             <div className="Flexbox">
               <div className="Flexbox-Left">
@@ -163,7 +163,7 @@ export default function Home({
               <div className="Flexbox-Right">
                 <p>
                   In the vibrant heart of the digital universe, a playful force
-                  is waking up, channeling the vivacious spirit of Luigi...
+                  is waking up, channeling the vivacious spirit of Diddy Kong...
                 </p>
                 <p>
                   Welcome to the world of a unique digital currency, born from
@@ -184,8 +184,8 @@ export default function Home({
                 </p>
                 <p>
                   Heed the call of fun you feel within. Embrace your inner
-                  maverick, and join the ranks of Luigi on BSC. Together we will
-                  rejoice in the glory of our success.
+                  maverick, and join the ranks of Diddy Kong on BSC. Together we
+                  will rejoice in the glory of our success.
                 </p>
                 <div className="Luigi-Buttons">
                   <a
@@ -198,6 +198,105 @@ export default function Home({
                     target="_blank">
                     Join Us on Telegram
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="tokenomics"
+        className="Section-Tokenomics"
+        style={{
+          backgroundImage: 'url("images/luigi-bg-blue.png")',
+        }}>
+        <div
+          className="Section-Border"
+          style={{
+            backgroundImage:
+              'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAABTklEQVR4AWJwL/ChGAPYnQPNhKIAAMNVShKJiHBfNmADAQGBQCAIBEEQghAu9SbfGDDbtqpzz7k4/wP8PswwC/EKgXkHwFtSEOa+N48OQhMLv7dAMwoILSz93xKtSkFoY+X+VmhXAkIHa4+3RicoCF1sPN8G3SAg9LD1elv0XgKhj51w7dB/CoQB9sK3x+AhEIY4qK4DhneBMMJR9R0x+hOEMU7idcL4RxAmOIvfGZMvIExxka4Lpp8gFCilr0TRwE19ujXUrAzKoAzKoERlUAZdca0LqESBD9bsnABgIACB4OqPiNNwEtPnf8YBJQykxqSKlSp6qeqpqnConLOxEJovbE6FBh4bnKEJzCZ5CAkYWoQYBbHOfaD5FJpewNe8CUQojtFgCCsBnp4HGh849ysvj30gBN4K4EOXALsoUqcJCLWsAzuIStNKVJvmAgBgvSfoAPxfAAAAAABJRU5ErkJggg==")',
+          }}
+        />
+        <div className="Section-Border-Image"></div>
+        <div className="Section-Border-Image up-down">
+          <img
+            src="images/banana.webp"
+            alt="logo"
+            className="Animation-UpDown"
+          />
+        </div>
+        <div className="Section-Border-Image">
+          <img
+            src="images/moon.webp"
+            alt="logo"
+          />
+        </div>
+        <div className="App-Container">
+          <div className="Section-Content">
+            <h2>Tokenomics</h2>
+            <p>
+              With a total initial supply of 42 Quadrillon tokens, no further
+              minting of new coins possible, and team buy back &amp; burns,
+              $DIDDYKONG is a deflationary token.
+            </p>
+            <p>
+              100% of the LP is locked.
+              <br />
+              Contract is renounced.
+            </p>
+            <div className="Luigi-Stats Luigi-Stats-Desktop">
+              <div className="Luigi-Stats-Row">
+                <div className="Luigi-Stat">
+                  <span>2%</span>
+                  <span>
+                    Marketing
+                    <br />
+                    Buy/Sell
+                  </span>
+                </div>
+                <div className="Luigi-Stat">
+                  <span>1%</span>
+                  <span>
+                    Liquidity
+                    <br />
+                    Buy/Sell
+                  </span>
+                </div>
+                <div className="Luigi-Stat">
+                  <span>2%</span>
+                  <span>
+                    USDT
+                    <br />
+                    Rewards
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="Luigi-Stats Luigi-Stats-Mobile">
+              <div className="Luigi-Stats-Row">
+                <div className="Luigi-Stat">
+                  <span>2%</span>
+                  <span>
+                    Marketing
+                    <br />
+                    Buy/Sell
+                  </span>
+                </div>
+                <div className="Luigi-Stat">
+                  <span>1%</span>
+                  <span>
+                    Liquidity
+                    <br />
+                    Buy/Sell
+                  </span>
+                </div>
+                <div className="Luigi-Stat">
+                  <span>2%</span>
+                  <span>
+                    USDT
+                    <br />
+                    Rewards
+                  </span>
                 </div>
               </div>
             </div>

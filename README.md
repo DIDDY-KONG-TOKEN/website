@@ -1,1 +1,6 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+TESTNET: 0x89028783e4eDe7fC92812c817fc4c89b84D83B04
+
+Liquidity Tax: 1%
+Marketing Tax: 2%
+Rewards Tax: 2%
+Total Suply: 4200000000000000000000000000000000 
