@@ -70,20 +70,6 @@ export default function Layout({
               </div>
               <nav className="Header-Nav">
                 <ul>
-                  {/* <li>
-                    <a
-                      href="https://t.me/LuigiInuBSC/93038"
-                      target="_blank">
-                      ⭐ Announcement <span className="Nav-Star">⭐</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://t.me/LuigiInuBSC/93048"
-                      target="_blank">
-                      ⭐ Week 2 Roadmap <span className="Nav-Star">⭐</span>
-                    </a>
-                  </li> */}
                   <li>
                     <a href="#about">About</a>
                   </li>
