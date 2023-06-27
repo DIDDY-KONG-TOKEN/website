@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Diddy Kong | USDT Rewards | Renounced | Low Tax';
 
 export default function Layout({
   children,
