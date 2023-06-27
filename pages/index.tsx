@@ -130,6 +130,7 @@ export default function Home({
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover !important',
           backgroundPosition: 'center',
+          backgroundAttachment: 'fixed',
         }}>
         <div
           style={{
@@ -311,6 +312,7 @@ export default function Home({
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover !important',
           backgroundPosition: 'center',
+          backgroundAttachment: 'fixed',
         }}>
         <div
           className="Section-Border"
