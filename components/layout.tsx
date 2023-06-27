@@ -22,7 +22,7 @@ export default function Layout({
         />
         <meta
           property="og:image"
-          content={`https://diddykong.netlify.app/images/phase1.png`}
+          content={`https://diddykong.live/images/didi-share.png`}
         />
         <meta
           name="og:title"
