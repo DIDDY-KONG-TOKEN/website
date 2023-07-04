@@ -76,6 +76,13 @@ export default function Layout({
                   </li>
                   <li>
                     <a
+                      target="_blank"
+                      href="https://whitepaper.diddykong.live/">
+                      WhitePaper
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="https://pancakeswap.finance/swap?outputCurrency=0x81fbE87a976d6c572183Cfaf24f8Acce954A2c30"
                       target="_blank">
                       Buy Now
