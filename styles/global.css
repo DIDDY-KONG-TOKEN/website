@@ -182,9 +182,9 @@ Header Left
   }
 } */
 
-/* Luigi Logo */
+/* DiddyKong Logo */
 
-.Luigi-Logo {
+.DiddyKong-Logo {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -193,43 +193,43 @@ Header Left
 }
 
 @media (max-width: 767px) {
-  .Luigi-Logo {
+  .DiddyKong-Logo {
     gap: 8px;
   }
 }
 
-.Luigi-Logo-Symbol {
+.DiddyKong-Logo-Symbol {
   width: 70px;
 }
 
 @media (max-width: 967px) {
-  .Luigi-Logo-Symbol {
+  .DiddyKong-Logo-Symbol {
     width: 50px;
   }
 }
 
-.Luigi-Logo-Symbol > img {
+.DiddyKong-Logo-Symbol > img {
   width: 100%;
   display: block;
 }
 
-.Luigi-Logo-Words {
+.DiddyKong-Logo-Words {
   width: 200px;
 }
 
 @media (max-width: 967px) {
-  .Luigi-Logo-Words {
+  .DiddyKong-Logo-Words {
     width: 140px;
   }
 }
 
 @media (max-width: 387px) {
-  .Luigi-Logo-Words {
+  .DiddyKong-Logo-Words {
     width: 100px;
   }
 }
 
-.Luigi-Logo-Words > img {
+.DiddyKong-Logo-Words > img {
   width: 100%;
   display: block;
 }
@@ -490,7 +490,7 @@ TYPOGRAPHY
 BUTTONS
 ======================================================= */
 
-.Luigi-Buttons {
+.DiddyKong-Buttons {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -498,7 +498,7 @@ BUTTONS
   align-items: flex-start;
 }
 
-.Luigi-Buttons > a {
+.DiddyKong-Buttons > a {
   padding: 20px 40px;
   color: #FFFFFF;
   text-decoration: none;
@@ -508,12 +508,12 @@ BUTTONS
 }
 
 @media (max-width: 967px) {
-  .Luigi-Buttons > a {
+  .DiddyKong-Buttons > a {
     padding: 16px 32px;
   }
 }
 
-.Luigi-Buttons > a:hover {
+.DiddyKong-Buttons > a:hover {
   background-color: #FFFFFF;
   color: #000000;
   transition: 0.25s;
@@ -720,7 +720,7 @@ HERO
 }
 
 @media (max-width: 967px) {
-  .Section-Hero .Luigi-Buttons {
+  .Section-Hero .DiddyKong-Buttons {
     align-items: center;
     max-width: 280px;
     margin-left: auto;
@@ -729,45 +729,45 @@ HERO
   }
 }
 
-.Section-Hero .Luigi-Buttons > a {
+.Section-Hero .DiddyKong-Buttons > a {
   font-size: 20px;
   line-height: 1;
   font-weight: 700;
 }
 
 @media (max-width: 967px) {
-  .Section-Hero .Luigi-Buttons > a {
+  .Section-Hero .DiddyKong-Buttons > a {
     font-size: 18px;
     width: 100%;
     box-sizing: border-box;
   }
 }
 
-.Section-Hero .Luigi-Buttons > a:nth-child(2) {
+.Section-Hero .DiddyKong-Buttons > a:nth-child(2) {
   background-color: #ED0605;
   background-color: #37013d;
   background: linear-gradient(180deg, #0cb24c 0%, #006b29 100%);
   font-weight: 800;
 }
 
-.Section-Hero .Luigi-Buttons > a:nth-child(2):hover {
+.Section-Hero .DiddyKong-Buttons > a:nth-child(2):hover {
   background-color: #FFFFFF;
   color: #000000;
 }
 
 
-.Section-Hero .Luigi-Socials {
+.Section-Hero .DiddyKong-Socials {
   justify-content: flex-start;
   gap: 16px;
 }
 
 @media (max-width: 967px) {
-  .Section-Hero .Luigi-Socials {
+  .Section-Hero .DiddyKong-Socials {
     justify-content: center;
   }
 }
 
-.Section-Hero .Luigi-Socials > a {
+.Section-Hero .DiddyKong-Socials > a {
   width: 28px;
 }
 
@@ -803,7 +803,7 @@ section {}
   display: block;
 }
 
-.Luigi-Socials {
+.DiddyKong-Socials {
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -813,22 +813,22 @@ section {}
 }
 
 @media (max-width: 767px) {
-  .Luigi-Socials {
+  .DiddyKong-Socials {
     gap: 12px;
   }
 }
 
-.Luigi-Socials > a {
+.DiddyKong-Socials > a {
   width: 36px;
   display: block;
 }
 
-.Luigi-Socials > a:hover {
+.DiddyKong-Socials > a:hover {
   opacity: 0.5;
   transition: 0.25s;
 }
 
-.Luigi-Socials > a > img {
+.DiddyKong-Socials > a > img {
   width: 100%;
   display: block;
 }
@@ -1052,12 +1052,12 @@ SECTION - ABOUT
   transition: 0.25s;
 }
 
-.Section-About .Luigi-Buttons {
+.Section-About .DiddyKong-Buttons {
   flex-direction: row;
 }
 
 @media (max-width: 967px) {
-  .Section-About .Luigi-Buttons {
+  .Section-About .DiddyKong-Buttons {
     flex-direction: column;
     align-items: center;
     max-width: 280px;
@@ -1067,19 +1067,19 @@ SECTION - ABOUT
   }
 }
 
-.Section-About .Luigi-Buttons > a {
+.Section-About .DiddyKong-Buttons > a {
   font-size: 20px;
   line-height: 1;
   font-weight: 700;
 }
 
 @media (max-width: 967px) {
-  .Section-About .Luigi-Buttons > a {
+  .Section-About .DiddyKong-Buttons > a {
     font-size: 18px;
   }
 }
 
-.Section-About .Luigi-Buttons > a:nth-child(1) {
+.Section-About .DiddyKong-Buttons > a:nth-child(1) {
   background-color: #37013d;
   background: linear-gradient(180deg, #0cb24c 0%, #006b29 100%);
   background: initial;
@@ -1088,25 +1088,25 @@ SECTION - ABOUT
 }
 
 @media (max-width: 967px) {
-  .Section-About .Luigi-Buttons > a:nth-child(1) {
+  .Section-About .DiddyKong-Buttons > a:nth-child(1) {
     width: 100%;
     box-sizing: border-box;
   }
 }
 
-.Section-About .Luigi-Buttons > a:nth-child(1):hover {
+.Section-About .DiddyKong-Buttons > a:nth-child(1):hover {
   background-color: #FFFFFF;
   color: #000000;
 }
 
-.Section-About .Luigi-Buttons > a:nth-child(2) {
+.Section-About .DiddyKong-Buttons > a:nth-child(2) {
   background-color: rgba(0,0,0,0);
   border: 2px solid #FFFFFF;
   color: #FFFFFF;
 }
 
 @media (max-width: 967px) {
-  .Section-About .Luigi-Buttons > a:nth-child(2) {
+  .Section-About .DiddyKong-Buttons > a:nth-child(2) {
     width: 100%;
     box-sizing: border-box;
   }
@@ -1246,24 +1246,24 @@ SECTION - TOKENOMICS
   }
 }
 
-/* Luigi Stats */
+/* DiddyKong Stats */
 
-.Luigi-Stats {}
+.DiddyKong-Stats {}
 
-.Luigi-Stats-Desktop {
+.DiddyKong-Stats-Desktop {
   display: block;
 }
 
-.Luigi-Stats-Mobile {
+.DiddyKong-Stats-Mobile {
   display: none;
 }
 
 @media (max-width: 967px) {
-  .Luigi-Stats-Desktop {
+  .DiddyKong-Stats-Desktop {
     display: none !important;
   }
 
-  .Luigi-Stats-Mobile {
+  .DiddyKong-Stats-Mobile {
     display: block !important;
     max-width: 480px;
     margin-left: auto;
@@ -1271,7 +1271,7 @@ SECTION - TOKENOMICS
   }
 }
 
-.Luigi-Stats-Row {
+.DiddyKong-Stats-Row {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1279,13 +1279,13 @@ SECTION - TOKENOMICS
 }
 
 @media (max-width: 667px) {
-  .Luigi-Stats-Row {
+  .DiddyKong-Stats-Row {
     flex-direction: column;
     align-items: center;
   }
 }
 
-.Luigi-Stat {
+.DiddyKong-Stat {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1295,7 +1295,7 @@ SECTION - TOKENOMICS
   gap: 16px;
 }
 
-.Luigi-Stat > span:nth-child(1) {
+.DiddyKong-Stat > span:nth-child(1) {
   width: 100%;
   font-size: 72px;
   font-weight: 900;
@@ -1303,12 +1303,12 @@ SECTION - TOKENOMICS
   text-align: center;
 }
 
-.Luigi-Stat > span:nth-child(1) > img {
+.DiddyKong-Stat > span:nth-child(1) > img {
   height: 56px;
   width: auto;
 }
 
-.Luigi-Stat > span:nth-child(2) {
+.DiddyKong-Stat > span:nth-child(2) {
   width: 100%;
   font-size: 24px;
   line-height: 1.1;
@@ -1553,7 +1553,7 @@ footer {
   position: relative;
 }
 
-footer .Luigi-Logo {
+footer .DiddyKong-Logo {
   align-items: center;
   justify-content: center;
   margin-bottom: 12px;
@@ -1742,31 +1742,31 @@ COMING SOON
   text-decoration: underline;
 }
 
-.Coming-Soon-Content .Luigi-Buttons {
+.Coming-Soon-Content .DiddyKong-Buttons {
   display: flex;
   flex-direction: row;
   margin-bottom: 60px;
 }
 
-.Coming-Soon-Content .Luigi-Buttons > a {
+.Coming-Soon-Content .DiddyKong-Buttons > a {
   background-color: #FFF;
   color: #000000;
   background: linear-gradient(180deg, #ffffff 0%, #aeaeae 100%);
   font-weight: bold;
 }
 
-.Coming-Soon-Content .Luigi-Buttons > a:nth-child(2) {
+.Coming-Soon-Content .DiddyKong-Buttons > a:nth-child(2) {
   background-color: #c201a7;
   background: linear-gradient(180deg, #0cb24c 0%, #006b29 100%);
   background: linear-gradient(180deg, #02d052 0%, #056128 100%);
   color: #FFFFFF;
 }
 
-.Coming-Soon-Content .Luigi-Socials {
+.Coming-Soon-Content .DiddyKong-Socials {
   margin-bottom: 48px;
 }
 
-.Coming-Soon-Content .Luigi-Socials {
+.Coming-Soon-Content .DiddyKong-Socials {
   gap: 16px;
 }
 
@@ -1865,7 +1865,7 @@ VOLT SECTION
 }
 
 
-.luigi-volt-widget {}
+.diddyKong-volt-widget {}
 
 
 .Volt-Flex > div:nth-child(1) {
