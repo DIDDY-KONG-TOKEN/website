@@ -38,15 +38,15 @@ export default function Layout({
           <div className="Header">
             <div className="Header-Left">
               <a
-                className="Luigi-Logo"
+                className="DiddyKong-Logo"
                 href="https://diddykong.live">
-                <div className="Luigi-Logo-Symbol">
+                <div className="DiddyKong-Logo-Symbol">
                   <img
                     src="images/logo.png"
                     alt="logo"
                   />
                 </div>
-                <div className="Luigi-Logo-Words">
+                <div className="DiddyKong-Logo-Words">
                   <img
                     src="images/logo-words.png"
                     alt="logo"
@@ -100,14 +100,14 @@ export default function Layout({
         />
         <div className="App-Container">
           <div className="Section-Content">
-            <div className="Luigi-Logo">
-              <div className="Luigi-Logo-Symbol">
+            <div className="DiddyKong-Logo">
+              <div className="DiddyKong-Logo-Symbol">
                 <img
                   src="images/logo.png"
                   alt="logo"
                 />
               </div>
-              <div className="Luigi-Logo-Words">
+              <div className="DiddyKong-Logo-Words">
                 <img
                   src="images/logo-words.png"
                   alt="logo"
@@ -115,7 +115,7 @@ export default function Layout({
               </div>
             </div>
             <h3>Unleash Diddy Kong, his time is here!</h3>
-            <div className="Luigi-Socials">
+            <div className="DiddyKong-Socials">
               <a
                 href="https://twitter.com/DiddyKongInu"
                 target="_blank">
