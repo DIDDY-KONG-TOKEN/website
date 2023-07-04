@@ -236,7 +236,7 @@ export default function Home({
           <div className="Section-Content">
             <h2>Tokenomics</h2>
             <p>
-              With a total initial supply of 42 Quadrillon tokens, no further
+              With a total initial supply of 100 billions tokens, no further
               minting of new coins possible, and team buy back &amp; burns,
               $DIDDYKONG is a deflationary token.
             </p>
@@ -264,7 +264,7 @@ export default function Home({
                   </span>
                 </div>
                 <div className="DiddyKong-Stat">
-                  <span>2%</span>
+                  <span>1%</span>
                   <span>
                     USDT
                     <br />
@@ -292,7 +292,7 @@ export default function Home({
                   </span>
                 </div>
                 <div className="DiddyKong-Stat">
-                  <span>2%</span>
+                  <span>1%</span>
                   <span>
                     USDT
                     <br />
