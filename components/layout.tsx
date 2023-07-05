@@ -126,7 +126,7 @@ export default function Layout({
           <iframe
             src="https://pinballserver.netlify.app"
             width="100%"
-            height={window.innerHeight - 150}
+            height={'98%'}
             allowFullScreen={true}
             style={{
               border: 'none',
