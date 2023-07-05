@@ -12,6 +12,10 @@ body{
   padding: 0px;
 }
 
+.ReactModal__Overlay{
+  z-index: 2000;
+}
+
 .App {
   text-align: center;
   overflow: hidden;

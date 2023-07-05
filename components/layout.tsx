@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import { useState } from 'react';
+import Modal from 'react-modal';
 
 export const siteTitle = 'Diddy Kong | USDT Rewards | Renounced | Low Tax';
 
@@ -9,6 +11,7 @@ export default function Layout({
   children: React.ReactNode;
   home?: boolean;
 }) {
+  const [modalIsOpen, setIsOpen] = useState(false);
   return (
     <div className="App">
       <Head>
@@ -83,6 +86,15 @@ export default function Layout({
                   </li>
                   <li>
                     <a
+                      onClick={() => {
+                        setIsOpen(true);
+                      }}
+                      href="javascript:;">
+                      Game
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="https://pancakeswap.finance/swap?outputCurrency=0x81fbE87a976d6c572183Cfaf24f8Acce954A2c30"
                       target="_blank">
                       Buy Now
@@ -96,7 +108,32 @@ export default function Layout({
       </header>
 
       <main>{children}</main>
-
+      <div id="gameIframeModal">
+        <Modal
+          isOpen={modalIsOpen}
+          onRequestClose={() => {
+            setIsOpen(false);
+          }}
+          style={{
+            content: {
+              maxWidth: '90%',
+              margin: 'auto',
+              zIndex: 9999,
+              background: '#000',
+            },
+          }}
+          contentLabel="Example Modal">
+          <iframe
+            src="https://pinballserver.netlify.app"
+            width="100%"
+            height={window.innerHeight - 150}
+            allowFullScreen={true}
+            style={{
+              border: 'none',
+              borderRadius: '10px',
+            }}></iframe>
+        </Modal>
+      </div>
       <footer>
         <div
           className="Section-Border"
