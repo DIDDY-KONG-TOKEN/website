@@ -86,10 +86,8 @@ export default function Layout({
                   </li>
                   <li>
                     <a
-                      onClick={() => {
-                        setIsOpen(true);
-                      }}
-                      href="javascript:;">
+                      target="_blank"
+                      href="https://diddykongpinbal.netlify.app/">
                       Game
                     </a>
                   </li>
