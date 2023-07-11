@@ -106,7 +106,7 @@ export default function Home({
                     Join Telegram
                   </a>
                   <a
-                    href="https://privatesale.diddykong.live/"
+                    href="https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x81fbE87a976d6c572183Cfaf24f8Acce954A2c30"
                     target="_blank">
                     Buy $DIDDYKONG
                   </a>
@@ -190,7 +190,7 @@ export default function Home({
                 </p>
                 <div className="DiddyKong-Buttons">
                   <a
-                    href="https://privatesale.diddykong.live/"
+                    href="https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x81fbE87a976d6c572183Cfaf24f8Acce954A2c30"
                     target="_blank">
                     Buy $DIDYKONG
                   </a>
