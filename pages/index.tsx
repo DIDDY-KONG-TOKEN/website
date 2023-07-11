@@ -169,7 +169,7 @@ export default function Home({
                 <p>
                   Welcome to the world of a unique digital currency, born from
                   cheer and excitement, reflecting the witty and inventive
-                  essence of our favorite green-hatted hero himself:
+                  essence of our favorite rede-hatted hero himself:
                   <a
                     href="https://pancakeswap.finance/swap?outputCurrency=0x81fbE87a976d6c572183Cfaf24f8Acce954A2c30"
                     target="_blank">
