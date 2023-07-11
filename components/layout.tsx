@@ -57,7 +57,7 @@ export default function Layout({
                 </div>
               </a>
               <a
-                href="https://privatesale.diddykong.live/"
+                href="https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x81fbE87a976d6c572183Cfaf24f8Acce954A2c30"
                 target="_blank">
                 Buy Now
               </a>
@@ -93,7 +93,7 @@ export default function Layout({
                   </li>
                   <li>
                     <a
-                      href="https://privatesale.diddykong.live/"
+                      href="https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x81fbE87a976d6c572183Cfaf24f8Acce954A2c30"
                       target="_blank">
                       Buy Now
                     </a>
