@@ -87,6 +87,13 @@ export default function Layout({
                   <li>
                     <a
                       target="_blank"
+                      href="https://swap.diddykong.live/">
+                      Swap
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
                       href="https://diddykongpinbal.netlify.app">
                       Game
                     </a>
