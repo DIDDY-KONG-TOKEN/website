@@ -386,11 +386,68 @@ export default function Home({
               </div>
             </div>
           </div>
-          <div className="Section-Character">
-            <img
-              src="/static/media/diddyKong-car.50ba1ac313debbbd7db5.png"
-              alt="logo"
-            />
+          <div>
+            <h2>Partners</h2>
+            <div className="Partnes">
+              <div
+                onClick={() => {
+                  window.location.href = 'https://coinmarketcap.com/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/cmc.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href = 'https://www.coingecko.com/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/coingecko.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href = 'https://cntoken.io/coin/35130';
+                }}
+                style={{
+                  backgroundImage: 'url(images/cntoken.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href =
+                    'https://ave.ai/token/0x81fbe87a976d6c572183cfaf24f8acce954a2c30-bsc?from=Default';
+                }}
+                style={{
+                  backgroundImage: 'url(images/aveai.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              {/* <div
+                style={{
+                  backgroundImage: 'url(images/founder.png)',
+                  backgroundSize: '200px 200px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div> */}
+            </div>
           </div>
         </div>
       </section>

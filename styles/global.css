@@ -12,6 +12,37 @@ body{
   padding: 0px;
 }
 
+/* Partnes */
+
+.Partnes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 967px) {
+  .Partnes {
+    align-items: center;
+  }
+}
+
+.Partner {
+  background-color: #fff;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  box-sizing: border-box;
+}
+
 .ReactModal__Overlay{
   z-index: 2000;
 }
