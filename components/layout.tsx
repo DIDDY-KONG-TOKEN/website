@@ -94,7 +94,7 @@ export default function Layout({
                   <li>
                     <a
                       target="_blank"
-                      href="https://diddykongpinbal.netlify.app">
+                      href="https://pinball.diddykong.live">
                       Game
                     </a>
                   </li>
