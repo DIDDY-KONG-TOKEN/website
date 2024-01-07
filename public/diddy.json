@@ -1,6 +1,10 @@
 {
     "name": "DiddyKong",
     "symbol": "DIDDYKONG",
-    "description": "Fully reserved fiat-backed stablecoin created by Circle.",
-    "image": "https://www.circle.com/hs-fs/hubfs/sundaes/USDC.png?width=540&height=540&name=USDC.png"
+    "image": "https://diddykong.live/images/diddy-kong-2sjs.png",
+    "description": "https://t.me/DiddyKongInu https://twitter.com/DiddyKongInu https://diddykong.live/",
+    "creator": {
+      "name": "DiddyKong",
+      "site": "https://diddykong.live/"
+    }
   }
